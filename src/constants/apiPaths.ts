@@ -1,4 +1,8 @@
 const API_PATHS = {
+  products:
+    "https://bceuqnc4ec.execute-api.eu-west-1.amazonaws.com/dev/products",
+  getProduct: (id?: string) =>
+    `https://bceuqnc4ec.execute-api.eu-west-1.amazonaws.com/dev/products/${id}`,
   product: "https://.execute-api.eu-west-1.amazonaws.com/dev",
   order: "https://.execute-api.eu-west-1.amazonaws.com/dev",
   import: "https://.execute-api.eu-west-1.amazonaws.com/dev",
